@@ -1,0 +1,36 @@
+.product{
+    display: flex;
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    border: 1px solid black;
+    box-shadow: 5px 10px #888888;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+.product-price{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.product-price span{
+    font-weight: 700;
+    font-size: 20px;
+}
+.productname{
+    font-weight: 700;
+    font-size: 20px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+.imgDiv{
+    padding: 5px;
+}
+.imgDiv img{
+width: 290px;
+height: 200px;
+}
